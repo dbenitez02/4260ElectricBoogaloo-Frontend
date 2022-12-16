@@ -1,0 +1,11 @@
+<div class="container"> 
+    <nav class="navbar-sidebar"> 
+        <ul class="list-unstyled navbar-list">  
+            <li *ngFor="let pc of departments"> 
+                <a routerLink="/department/{{ pc.id }}" routerLinkActive="active-link"> 
+                    {{ pc.name }} 
+                </a>           
+            </li> 
+        </ul>
+    </nav>
+</div> 

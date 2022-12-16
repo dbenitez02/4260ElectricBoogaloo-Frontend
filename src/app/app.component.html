@@ -1,0 +1,17 @@
+<div class="page-wrapper"> 
+ 
+  <!-- MENU SIDEBAR --> 
+  <aside class="menu-sidebar d-none d-lg-block"> 
+    <div class="menu-sidebar-content js-scrollbar1">
+      <h1><a routerLink="/employees">Departments</a></h1>
+      <app-department-list></app-department-list>
+    </div> 
+</aside>
+ 
+  <div class="page-container"> 
+    <div class="container">
+      <h1>Employee List</h1>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

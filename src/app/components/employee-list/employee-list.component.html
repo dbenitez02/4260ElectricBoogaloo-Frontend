@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="col-lg">
+        <table class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th>Employee</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr *ngFor="let e of employees">
+                    <td>{{ e.name  }}</td>
+                    <td>{{ e.title }}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>
